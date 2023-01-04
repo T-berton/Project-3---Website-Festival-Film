@@ -1,0 +1,38 @@
+$primary:#f6f0da;
+$secondary: black;
+
+$body-bg: #171717;
+$body-color:#f6f0da;
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../../font/BebasNeue.otf);
+}
+$form-check-input-bg: $primary;
+$form-check-input-checked-bg-color:$secondary;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../../font/Montserrat[wght].ttf);
+}
+p{
+    font-family: Montserrat;
+    font-size: medium;
+}
+.offset-sticky::before{
+    display: block;
+    height: 1rem;
+    margin-top: -1rem;
+    content: "";
+}
+
+@media only screen and (max-width: 768px) {
+    .offset-sticky::before{
+        height: 2rem;
+        margin-top: -2rem;
+    }
+    }
+
+$font-family-base:Bebas Neue;
+$font-family-code:Bebas Neue;
+
