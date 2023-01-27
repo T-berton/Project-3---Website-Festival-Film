@@ -9,32 +9,39 @@
     <link rel="stylesheet" href=
 	"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Outdoor Film Festival in Boston Public Garden</title>
 </head>
 <body>
-    <header class="fixed-top">			
-        <nav class="navbar navbar-expand bg-black justify-content-center">
-            <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                    <a href="#films" class="nav-link text-primary"> Films</a>
-                </li>
-                <li class="nav-item ">
-                    <a href="#news" class="nav-link text-primary"> News</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-uppercase text-primary  border border-1 px-2 py-0 mx-4 text-decoration-none text-center" href="#home">Watch It Outside</a>
-                </li>
-                <li class="nav-item ">
-                    <a href="#about" class="nav-link text-primary"> Festival </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="#pre-register" class="nav-link text-primary"> Pre-register</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <!---------------------------- NAVBAR ----------------------------->
+    <nav class="navbar navbar-expand-sm bg-black  fixed-top">
+        <div class="container justify-content-md-center">
+            <button type="button" class="navbar-toggler text-bg-primary" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse flex-grow-0" id="navbarCollapse">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a href="#films" class="nav-link text-primary"> Films</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#news" class="nav-link text-primary"> News</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-uppercase text-primary  border border-1 px-2 py-0 mx-4 text-decoration-none text-center" href="#home">Watch It Outside</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#about" class="nav-link text-primary"> About </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#pre-register" class="nav-link text-primary"> Pre-register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main>	
+        <!---------------------------- HEADER ----------------------------->
         <section id="home" class="offset-sticky">
             <div class="container mt-5 mb-2 pt-5" id="home">
                 <div class="row align-items-center">
@@ -53,17 +60,18 @@
             <div class="container-fluid gx-md-0 h-80">
                 <div class="row gx-md-0 gy-0">
                     <div class="col-12 col-md-4 clearfix ">	
-                        <img src="../img/img1.jpg" alt="View of Boston" class="w-100 h-100" >
+                        <img src="./img/img1.jpg" alt="View of Boston" class="w-100 h-100" >
                     </div>							
                     <div class="col-12 col-md-4 clearfix">	
-                        <img src="../img/img2.jpg" alt="" class="w-100 h-100">	
+                        <img src="./img/img2.jpg" alt="" class="w-100 h-100">	
                     </div>							
                     <div class="col-12 col-md-4 clearfix">	
-                        <img src="../img/img3.jpg" alt="" class="w-100 h-100">
+                        <img src="./img/img3.jpg" alt="" class="w-100 h-100">
                     </div>
                 </div>
             </div>
         </section>
+        <!---------------------------- DISPLAYED FILMS ----------------------------->
         <section id="films" class="offset-sticky my-5">            
             <h2 class="fw-light display-3 bg-primary bg-opacity-75 text-secondary text-center my-5"> Film Displayed </h2>
             <div class="container mt-5" > 
@@ -72,7 +80,7 @@
                         <div id="carousel1" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../Films/the-light-house-logo-font-free-download.jpg" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
+                                    <img src="./Films/the-light-house-logo-font-free-download.jpg" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
                                     </div>
                                 <div class="carousel-item">
                                     <iframe class="d-block w-100" height="345" src="https://www.youtube.com/embed/Hyag7lR8CPA?rel=0" allowfullscreen></iframe>
@@ -88,7 +96,7 @@
                             </button>
                             </div>
                     </div>
-                    <div class="w-md-50 w-100 px-md-3 py-4">
+                    <div class="w-100 px-md-3 py-4">
                         <h3 class="mb-md-4"> Morning Session from 10:00 to 12:00 </h3>
                         <p>
                             Set on a remote and mysterious New England island in the late 19th century, the film features a hypnotic and hallucinatory tale of two lighthouse keepers.
@@ -100,7 +108,7 @@
                           <div id="carousel2" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../Films/TheArtistMovie.jpg" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
+                                    <img src="./Films/TheArtistMovie.jpg" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
                                   </div>
                                 <div class="carousel-item">
                                     <iframe class="d-block w-100" height="345" src="https://www.youtube.com/embed/YB9Oq0hn5KY?rel=0" allowfullscreen></iframe>
@@ -128,7 +136,7 @@
                           <div id="carousel3" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../Films/belfast.webp" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
+                                    <img src="./Films/belfast.webp" height="345" class="d-block w-100" alt="Film Lighthouse 2019">
                                   </div>
                                 <div class="carousel-item">
                                     <iframe class="d-block w-100" height="345" src="https://www.youtube.com/embed/Ja3PPOnJQ2k?rel=0" allowfullscreen></iframe>
@@ -153,6 +161,7 @@
                 </div>
             </div>
         </section>
+        <!---------------------------- NEWS ----------------------------->
         <section id="news" class="offset-sticky my-5">
             <h2 class="fw-light display-3 bg-primary bg-opacity-75 text-secondary text-center my-5"> News </h2>
             <div class="container">
@@ -201,13 +210,14 @@
                 </div>
             </div>
         </section>	
+        <!---------------------------- ABOUT US ----------------------------->
         <section id="about" class="offset-sticky">
             <h2 class="fw-light display-3 bg-primary bg-opacity-75 text-secondary text-center my-5"> About the Festival </h2>
             <div class="container">
                 <div class="row my-md-5 align-items-center justify-content-end">
                     <div class="col-12 col-md-6">
                         <div class="row">
-                            <img src="../img/dove-fog-day.jpg" alt="">
+                            <img src="./img/dove-fog-day.jpg" alt="">
                         </div>   
                     </div>
                     <div class="col-12 col-md-6">
@@ -227,7 +237,7 @@
                 <div class="row my-md-5 align-items-center">
                     <div class="col-12 col-md-6 order-md-1">
                         <div class="row">
-                            <img src="../img/top-view-film-elements-white-background.jpg" alt="">
+                            <img src="./img/top-view-film-elements-white-background.jpg" alt="">
                         </div>   
                     </div>
                     <div class="col-12 col-md-6 order-md-0">
@@ -243,6 +253,7 @@
                 </div>
             </div>
         </section>
+        <!---------------------------- PRE-REGISTER ----------------------------->
         <section id="pre-register" class="offset-sticky my-5">
             <h2 class="fw-light display-3 bg-primary bg-opacity-75 text-secondary text-center my-5"> Pre-register </h2>
             <div class="container my-5">
@@ -313,6 +324,7 @@
             </div>
         </section>	
     </main>
+    <!---------------------------- FOOTER ----------------------------->
 
     <footer class="bg-black justify-content-center fixed-bottom align-items-center ">
         <div class="container p-1">
@@ -321,28 +333,25 @@
                     Copyright | Watch It Outside
                 </div>
                 <div class="col-md-4 p-1 col-12 text-center">
-                    <a href="" class="text-primary">Boston Public Garden Website</a>|
-                    <a href="" class="text-primary ">Boston Official Website</a>
+                    <a href="https://friendsofthepublicgarden.org/" class="text-primary">Boston Public Garden Website</a>|
+                    <a href="https://www.boston.gov/" class="text-primary ">Boston Official Website</a>
                 </div>
                 <div class="col-md-4 col-12 text-center">
-                    <a class="social-footer btn" href="facebook.com">
+                    <a class="social-footer btn" href="https://www.facebook.com/">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="instagram.com" class="social-footer btn">
+                    <a href="https://www.instagram.com/" class="social-footer btn">
                         <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="twitter.com" class="social-footer btn">
+                    <a href="https://www.twitter.com/" class="social-footer btn">
                         <i class="bi bi-twitter" class="social-footer"></i>
                     </a>
-                    <a href="tiktok.com" class="social-footer btn">
+                    <a href="https://www.tiktok.com/" class="social-footer btn">
                         <i class="bi bi-tiktok"></i>
                     </a>
                 </div>
             </div>
         </div>	
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+   </body>
 </html>

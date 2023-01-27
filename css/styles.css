@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Bebas Neue";
-  src: url(../../font/BebasNeue.otf);
+  src: url(../font/BebasNeue.otf);
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(../../font/Montserrat[wght].ttf);
+  src: url(../font/Montserrat[wght].ttf);
 }
 p {
   font-family: Montserrat;
@@ -14,8 +14,8 @@ p {
 
 .offset-sticky::before {
   display: block;
-  height: 1rem;
-  margin-top: -1rem;
+  height: 0.5rem;
+  margin-top: -0.5rem;
   content: "";
 }
 
